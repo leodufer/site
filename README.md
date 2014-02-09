@@ -1,3 +1,0 @@
-# Website - Coffee and Code
-
-> Work in progress...
