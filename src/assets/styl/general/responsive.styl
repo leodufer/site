@@ -1,0 +1,41 @@
+// Breakpoints
+phone = "(max-width: 767px)"
+tablet = "(min-width: 768px) and (max-width: 1023px)"
+tvscreen = "(min-width: 1440px)"
+
+@media phone
+
+    header, section, footer
+    column(12)
+
+    .page
+        .left, .right
+            column(12)
+            border: none
+            padding: 0
+            text-align: left
+
+    header
+        .logo
+            width: 100%
+            margin: 0px auto
+            display: block
+            float: none
+            text-align: center
+        .right
+            nav
+                ul
+                    li
+                        margin: 10px auto
+                        width: 100%
+                        display: block
+                        float: none
+                        text-align: center
+
+    .content
+        ul
+            li
+                width: 100%
+                display: block
+                float: none
+

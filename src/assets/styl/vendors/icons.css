@@ -1,0 +1,23 @@
+[class*="icon-"] {
+	display: inline-block;
+	width: 96px;
+	height: 96px;
+	background-image: url(../images/icons/sprites.svg);
+	background-repeat: no-repeat;
+}
+.icon-topics {
+	background-position: -112px 0;
+	width: 96px;
+}
+.icon-guides {
+	background-position: -448px 0;
+	width: 96px;
+}
+.icon-magneto {
+	background-position: -560px 0;
+	width: 96px;
+}
+.icon-learning {
+	background-position: -672px 0;
+	width: 96px;
+}

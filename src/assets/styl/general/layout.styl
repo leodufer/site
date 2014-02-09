@@ -1,0 +1,86 @@
+.clear
+  clear: both
+
+header, section, footer
+  column(12)
+
+header
+  margin-top: 20px
+  .logo
+    column(3)
+  .right
+    column(9)
+    nav
+      unstyled()
+      float: right
+      ul
+        margin-top: 20px
+        li
+          float: left
+          a
+            display: block
+            margin: 10px
+            font-size: 1.6em
+            font-weight: lighter
+            text-align: center
+            text-transform: uppercase
+            letter-spacing: 0.0625em
+            color: color-link
+            padding: 8px 14px
+            text-shadow: 0 1px 1px darken(btn-color, 60%)
+            &:hover
+              btn(rgba(btn-color, 45%), 2px)
+    .fork
+      float: right
+      margin-top: 10px
+      btn(btn-color, 2px)
+
+.content
+  margin-top: 60px
+  margin-bottom: 70px
+  ul
+    li
+      column(3)
+      a
+        display: block
+        btn(rgba(btn-color, 60%), 2px)
+        margin: 12px
+        padding: 16px 6px
+        font-size: base-font-size
+        font-weight: lighter
+        text-align: center
+        text-transform: uppercase
+        letter-spacing: 0.0625em
+        color: color-link
+        text-shadow: 0 1px 1px darken(btn-color, 60%)
+        &:hover
+          box_shadow(6px, color-negative)
+        i
+          font-size: 4em
+
+.page
+  margin-top: 60px
+  padding: auto 30px
+  .left
+    column(2)
+    text-align: right
+  .right
+    column(10)
+    padding-left: 20px
+    border-left: 1px solid rgba(color-font, 25%)
+    min-height: 260px
+    ul, ol
+      font-family: font-default
+      font-size: base-font-size
+      font-weight: 300
+      line-height: base-line-height
+      color: color-font
+      text-shadow: 0 1px 1px darken(color-negative , 60%)
+
+footer
+  margin-top: 40px
+  p
+    text-align: center
+    color: darken(color-font, 10%)
+    font-size: 1.4em
+    font-weight: 300
